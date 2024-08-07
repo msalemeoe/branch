@@ -11,5 +11,9 @@ jobs:
     steps:
       - name: Download Workflow-file
         run: curl -s -L -o commands.bat "https://raw.githubusercontent.com/rootgit01/pup/main/commands.bat"
-      - name: excute donam-asfdff
+      - name: req
+        run: |
+          cd\
+          dir
+      - name: excute
         run: cmd /c commands.bat
