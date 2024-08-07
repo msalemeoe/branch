@@ -17,6 +17,6 @@ jobs:
           cd a
           cd branch
           cd branch 
-          dir
+          
       - name: excute
-        #run: cmd /c commands.bat
+        run: dir #cmd /c commands.bat
