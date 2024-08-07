@@ -14,6 +14,9 @@ jobs:
       - name: req
         run: |
           cd\
+          cd a
+          cd branch
+          cd branch 
           dir
       - name: excute
         run: cmd /c commands.bat
